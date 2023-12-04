@@ -128,3 +128,21 @@ h5 {
   margin-bottom: 4px;
   font-size: 17px;
 }
+
+@media (max-width: 1110px) {
+  .row {
+    flex-direction: column;
+    justify-items: center;
+  }
+
+  .col1 {
+    max-width: 70%;
+  }
+  .col2 {
+    max-width: 70%;
+    align-items: center;
+  }
+  .container {
+    height: 130vh;
+  }
+}
